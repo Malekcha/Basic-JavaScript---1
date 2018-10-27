@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="css/word.css">
+            <meta charset="UTF-8">
+
+    </head>
+    <body>
+        <script src='js/word.js'></script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="commandes">
+        <button onclick="bold()";>bold</button>
+        <button onclick="italic()";>italic</button>
+        <button onclick="underline()";>underline</button>
+        <select onChange="ecriture()" id="ecriture" >
+                <option value="times new roman">times new roman</option>
+                <option value="courier new">courier new</option>
+                <option value="Lucida sans">Lucida sans</option>
+                
+        </select>
+
+        <select onChange="taille()" id="textsize1">
+                <option value="10px">10</option>
+                <option value="20px">20</option>
+                <option value="30px">30</option>
+                
+        </select>
+    </div>
+<div class="editeurdetexte" contenteditable="true"></div>
+    
+        
+        </body>
+    
+           
+</html>
